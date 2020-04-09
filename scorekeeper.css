@@ -1,0 +1,27 @@
+.container {
+  margin-bottom: 10%;
+  border: 5px solid black;
+  padding: 10%;
+  width: 50%;
+}
+
+.display-1 {
+  font-size: 5rem;
+}
+
+.winner {
+  color: #32CD32;
+}
+
+#winner {
+  font-size: 3rem;
+  padding: 2%;
+  color: #32CD32;
+}
+
+
+@media only screen and (max-width: 1050px) {
+  .container {
+    width: 100%;
+  }
+}
